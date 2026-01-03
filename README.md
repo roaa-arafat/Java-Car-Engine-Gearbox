@@ -1,26 +1,19 @@
-# Java-Car-Engine-Gearbox
-Simple Java project demonstrating composition using Car, Engine, and Gear_Box classes.
+# Car Factory Project 
 
-##  Project Overview
-The application models a car system where a `Car` object is composed of:
-- **Engine**: contains engine specifications such as cylinders, horsepower, and capacity.
-- **Gear_Box**: represents the gearbox details including number of shifts and transmission type.
-- **Test_Car**: main class used to create objects and test the functionality.
+This is a simple Java project that simulates a car factory. It allows creating cars with engines, gearboxes, and wheels.
 
-##  Classes Used
-- Car
-- Engine
-- Gear_Box
-- Test_Car
+## Project Components
 
-##  Technologies
-- Java
-- Object-Oriented Programming (OOP)
+- **Car**: Represents a car.
+- **Engine**: Represents the car engine.
+- **Gear_Box**: Represents the gearbox.
+- **Wheel, Tyre, Rim**: Represent the wheels and tires.
 
-##  How to Run
-1. Open the project in a Java IDE
-2. Run the `Test_Car` class
-3. The car information will be printed to the console
+## Features
 
-##  Output
-The program outputs the details of the car including its engine and gearbox information.
+- Lets the user enter engine specifications (HorsePower, Cylinders, Capacity).
+- Creates default wheels with tires and rims.
+- Allows creating a car by setting type, color, year, engine, gearbox, and wheels.
+- Can turn the car on and off.
+
+
